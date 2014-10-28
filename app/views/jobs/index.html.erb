@@ -7,8 +7,9 @@
 	<div class="row">
 		<% @jobs.each do |job| %>
 		<div class="job col-xs-6 col-sm-3">
+		<h3 class="created">Paru le <%= job.created_at %></h3>
 		<h2><%= link_to job.title, job.url %></h2>
-		<p><%= job.company %>
+		<h2><%= job.company %></h2>
 		</div>
 		<% end %>
 	</div>
