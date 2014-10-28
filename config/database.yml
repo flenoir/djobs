@@ -6,7 +6,10 @@
 development:
   adapter: postgresql
   database: djobs
+<<<<<<< HEAD
   host: localhost
+=======
+>>>>>>> 8850bc71d6536f3d90c515e84e86a5efc50710b2
   pool: 5
   timeout: 5000
 
