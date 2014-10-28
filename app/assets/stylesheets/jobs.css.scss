@@ -1,0 +1,48 @@
+// Place all the styles related to the jobs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(248,248,248);
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+h1 {
+font-family: 'Comfortaa', cursive;
+color: white;
+font-size: 40px;
+
+}
+
+.main {
+	background: url(http://lorempixel.com/1300/600/business);
+	background-size: cover;
+	text-align: center;
+	padding: 150px 0px 150px 0px;
+	text-shadow: 2px 2px 5px black;
+}
+
+.job {
+	color:red;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+	border-style: solid;
+	border-color: gray;
+    border-width: 1px;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.created {
+	color:gray;
+	font-size: 11px;
+}
